@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Spinner</title>
+	<style type="text/css">
+		
+#loading {
+  background: url('loading.gif') no-repeat center center;
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  z-index: 9999999;
+  background-color:#fff;
+}
+ 
+
+	</style>
+</head>
+<body>
+
+
+	<div id="loading"></div>
+
+		
+	
+	
+ <script src=" https://code.jquery.com/jquery-1.12.4.min.js"></script>
+
+  <script>
+       
+     
+window.onload = function() 
+    {
+        //display loader on page load 
+        $('#loading').fadeOut();
+    }
+
+
+</script>
+</body>
+</html>
